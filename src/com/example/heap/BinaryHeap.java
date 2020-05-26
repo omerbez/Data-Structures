@@ -27,7 +27,7 @@ public abstract class BinaryHeap <T extends Comparable<T>> implements IHeap<T>
 	
 	/**
 	 * Create heap from unsorted array.
-	 * Time Complexy: O(n)
+	 * Time Complexity: O(n)
 	 */
 	public BinaryHeap(T[] data, PriorityComparator<T> comparator) {
 		assert data != null && comparator != null;
