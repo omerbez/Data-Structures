@@ -104,7 +104,7 @@ public class BinarySearchTree <T extends Comparable<T>> extends AbstractBinaryTr
 	}
 	
 	/**
-	 * Find the next node - such that its value is right after this node's value..
+	 * Find the next node of a node which has a right child.
 	 */
 	private BinaryNode<T> findNextOf(BinaryNode<T> node) {
 		if(node == null || !node.hasRight())
